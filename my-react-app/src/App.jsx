@@ -1,11 +1,12 @@
 import Welcome from "./components/Welcome";
+import Shop from "./components/Shop";
 
 function App() {
+
   return (
     <div>
-      <button>Click</button>
-      <h1>Hello world</h1>
-      <Welcome />
+      {/* <Welcome /> */}
+      <Shop></Shop>
     </div>
   );
 }
